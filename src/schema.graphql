@@ -1,0 +1,10 @@
+# import Post from "./generated/prisma.graphql"
+
+type Query {
+  feed(authorId: ID): Feed!
+}
+
+type Feed {
+  posts: [Post!]!
+  count: Int!
+}
