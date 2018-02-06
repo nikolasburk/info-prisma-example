@@ -12,9 +12,10 @@ After you deployed the Prisma service, you need to replace the `__PRISMA_ENDPOIN
 
 Note that `prisma deploy` also executes the mutation defined in `database/seed.graphql` so your service will be seeded with initial data.
 
-You can then run the following command to start the server and open a Playground:
+You can then run the following commands to start the server and open a Playground:
 
 ```sh
+yarn install
 yarn dev
 ```
 
