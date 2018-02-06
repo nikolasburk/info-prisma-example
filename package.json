@@ -1,7 +1,7 @@
 {
   "name": "nb",
   "scripts": {
-    "start": "nodemon src/index.js",
+    "start": "node src/index.js",
     "dev": "npm-run-all --parallel start playground",
     "playground": "graphql playground",
     "prisma": "prisma"
